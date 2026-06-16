@@ -1,0 +1,20 @@
+{
+  "name": "toweringmedia/module-search-intelligence-core",
+  "description": "The intelligence engine powering the Toweringmedia SEO suite. Search Intelligence Core orchestrates proposal lifecycle, AI-assisted metadata drafting, governed apply/rollback workflows, and a live SEO Operations Dashboard \u2014 all within native Magento admin.",
+  "type": "magento2-module",
+  "homepage": "https://toweringmedia.com/search-intelligence-core-for-magento-2",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "magento/framework": ">=103.0"
+  },
+  "support": {
+    "docs": "https://toweringmedia.com/search-intelligence-core-for-magento-2",
+    "source": "https://github.com/Toweringmedia-extensions/module-search-intelligence-core"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
